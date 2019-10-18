@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/background.jpg");
+    padding-top: 5vw;
+    text-align: center;
+    
+}
+h2 {
+    text-align: center;
+}
+
+h3 {
+text-align: center;
+}
+
+
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 25px;
+  text-align: center;
+}
