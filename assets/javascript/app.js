@@ -38,10 +38,9 @@ $(document).ready(function(){
       q4: 'Seals Stadium',
    
     },
-    // trivia methods
-    // method to initialize game
-    startGame: function(){
-      // restarting game results
+    
+        startGame: function(){
+      
       trivia.currentSet = 0;
       trivia.correct = 0;
       trivia.incorrect = 0;
@@ -50,11 +49,9 @@ $(document).ready(function(){
       
       // show game section
       $('#game').show();
-      
-      //  empty last results
+            //  empty last results
       $('#results').html('');
-      
-      // show timer
+            // show timer
       $('#timer').text(trivia.timer);
       
       // remove start button
@@ -119,7 +116,7 @@ $(document).ready(function(){
           '<p>Correct: '+ trivia.correct +'</p>'+
           '<p>Incorrect: '+ trivia.incorrect +'</p>'+
           '<p>Unaswered: '+ trivia.unanswered +'</p>'+
-          '<p>Please play again!</p>');
+          '<p></p>');
         
         // hide game sction
         $('#game').hide();
